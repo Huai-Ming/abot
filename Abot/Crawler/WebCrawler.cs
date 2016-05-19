@@ -927,6 +927,8 @@ namespace Abot.Crawler
             {
                 // First validate that the link was not already visited or added to the list of pages to visit, so we don't
                 // make the same validation and fire the same events twice.
+              
+
                 if (!_scheduler.IsUriKnown(uri) &&
                     (_shouldScheduleLinkDecisionMaker == null || _shouldScheduleLinkDecisionMaker.Invoke(uri, crawledPage, _crawlContext))) {
                     try //Added due to a bug in the Uri class related to this (http://stackoverflow.com/questions/2814951/system-uriformatexception-invalid-uri-the-hostname-could-not-be-parsed)

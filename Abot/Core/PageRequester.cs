@@ -38,7 +38,7 @@ namespace Abot.Core
         protected CookieContainer _cookieContainer = new CookieContainer();
 
         public PageRequester(CrawlConfiguration config)
-            : this(config, null)
+            : this(config, null,null)
         {
 
         }
@@ -58,6 +58,29 @@ namespace Abot.Core
                     (sender, certificate, chain, sslPolicyErrors) => true;
 
             _extractor = contentExtractor ?? new WebContentExtractor();
+        }
+
+        public PageRequester(CrawlConfiguration config, CookieContainer cookieContainer)
+            : this(config, cookieContainer, null)
+        {
+        }
+
+        public PageRequester(CrawlConfiguration config, CookieContainer cookieContainer, IWebContentExtractor contentExtractor)
+        {
+            if (config == null)
+                throw new ArgumentNullException("config");
+
+            _config = config;
+
+            // extra piece of code
+            if (cookieContainer != null)
+                _cookieContainer = cookieContainer;
+
+            if (_config.HttpServicePointConnectionLimit > 0)
+                ServicePointManager.DefaultConnectionLimit = _config.HttpServicePointConnectionLimit;
+
+            //_extractor = contentExtractor ?? new WebContentExtractor();
+            _extractor = contentExtractor;
         }
 
         /// <summary>

@@ -96,6 +96,12 @@ namespace Abot.Core
                 if (baseHref.StartsWith("//"))
                     baseHref = crawledPage.Uri.Scheme + ":" + baseHref;
 
+                //Hyman: add the extra prcess to some request with ?
+                if(baseHref.Contains('?'))
+                {
+                    baseHref = baseHref.Substring(0,baseHref.IndexOf('?'));
+                }
+
                 try
                 {
                     uriToUse = new Uri(baseHref);
@@ -113,6 +119,13 @@ namespace Abot.Core
                     href = _config.IsRespectUrlNamedAnchorOrHashbangEnabled
                         ? hrefValue
                         : hrefValue.Split('#')[0];
+
+                    //Hyman: add the extra prcess to some request with ?
+                    if (href.Contains('?'))
+                    {
+                        href = href.Substring(0, href.IndexOf('?'));
+                    }
+
                     Uri newUri = new Uri(uriToUse, href);
 
                     if (_cleanURLFunc != null)

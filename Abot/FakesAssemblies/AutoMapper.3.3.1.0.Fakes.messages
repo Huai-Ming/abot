@@ -1,0 +1,200 @@
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.LazyFactory 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.FeatureDetector 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IAdapterResolver 生成存根: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.PlatformAdapter 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.ProbingAdapterResolver 生成存根: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mapper 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.MapperRegistry 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MemberList 生成存根: 类型是一个值类型。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundMethod 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundPropertyGet 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundFieldGet 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundFieldSet 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundPropertySet 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundValueTypeFieldSet 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundValueTypePropertySet 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundCtor 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundParamsCtor 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IValueFormatter 生成存根: 类型已过时。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterCtorExpression 生成存根: 类型已过时。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterCtorExpression`1 生成存根: 类型已过时。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterConfiguration 生成存根: 类型已过时。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Impl.TypePair 生成存根: 类型是一个值类型。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterExpression 生成存根: 类型已过时。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.EnumerableExtensions 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.ObjectCreator 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeHelper 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapObjectMapperRegistry 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.PrimitiveExtensions 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Impl.ReflectionHelper 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Extensions 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 <>f__AnonymousType0`2 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 <>f__AnonymousType1`2 生成存根: 类型已密封。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IDelegateFactory 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.DelegateFactory+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.DelegateFactory+<>c__DisplayClass10 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.DelegateFactory+<>c__DisplayClass13 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.DelegateFactory+<>c__DisplayClass4 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.DelegateFactory+<>c__DisplayClassa 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IDictionaryFactory 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.DictionaryFactory+DictionaryAdapter`2 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IDictionary`2 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IProxyGenerator 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IProxyGeneratorFactory 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.ILazy`1 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IReaderWriterLockSlim 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.INullableConverter 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.INullableConverterFactory 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IEnumNameValueMapperFactory 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IEnumNameValueMapper 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IReaderWriterLockSlimFactory 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.LazyFactory+LazyImpl`1 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.IAdapterResolver 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.NullableConverterFactory+NullableConverterImpl 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.EnumNameValueMapperFactory+EnumVameValueMapper 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IValueResolver 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMemberResolver 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Internal.ProbingAdapterResolver 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IObjectMapper 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.ExplicitConversionOperatorMapper+<>c__DisplayClass3 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.ExpressionMapper+MappingVisitor 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.ExpressionMapper+ParameterReplacementVisitor 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.ImplicitConversionOperatorMapper+<>c__DisplayClass3 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.IPlatformSpecificMapperRegistry 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MemberList 生成填充码: 类型是一个枚举。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.AutoMapperMappingException+<GetContexts>d__0 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMappingAction`2 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMappingEngineRunner 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMappingOperationOptions 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMappingOperationOptions`2 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingOperationOptions`2+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingOperationOptions`2+<>c__DisplayClass4 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.INamingConvention 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMappingOptions 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ITypeConverter`2 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundMethod 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundPropertyGet 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundFieldGet 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundFieldSet 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundPropertySet 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundValueTypeFieldSet 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundValueTypePropertySet 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundCtor 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.LateBoundParamsCtor 生成填充码: 类型是一个委托。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ITypeMapFactory 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IValueFormatter 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMemberGetter 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMemberAccessor 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterCtorExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterCtorExpression`1 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.FormatterCtorExpression`1+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IProfileConfiguration 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterConfiguration 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IConfigurationProvider 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IProfileExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IConfiguration 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass14 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass16 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass1c 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass35 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass38 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass3e 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass4 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass40 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass42 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass44 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClass8 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<>c__DisplayClassb 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ConfigurationStore+<InheritanceTree>d__18 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IFormatterCtorConfigurator 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.FormatterExpression+<>c__DisplayClass15 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.FormatterExpression+<>c__DisplayClass20 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.FormatterExpression+<GetFormatters>d__0 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMappingEngine 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMappingExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMappingExpression`2 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMemberConfigurationExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ISourceMemberConfigurationExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ISourceMemberConfigurationExpression`1 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IMemberConfigurationExpression`1 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IResolutionExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IResolverConfigurationExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IResolutionExpression`1 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IResolverConfigurationExpression`2 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.IResolverConfigurationExpression`1 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.CollectionMapper+EnumerableMapper`2 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.DictionaryMapper+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.ITypeMapObjectMapper 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.ReadOnlyCollectionMapper+EnumerableMapper`1 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapMapper+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapObjectMapperRegistry+CacheMappingStrategy 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapObjectMapperRegistry+CustomMapperStrategy 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapObjectMapperRegistry+ExistingObjectMappingStrategy 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapObjectMapperRegistry+NewObjectPropertyMapMappingStrategy 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapObjectMapperRegistry+NullMappingStrategy 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapObjectMapperRegistry+PropertyMapMappingStrategy 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Mappers.TypeMapObjectMapperRegistry+SubstutitionMapperStrategy 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingEngine+<>c__DisplayClass5 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression+<>c__DisplayClass1`1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression+SourceMappingExpression 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass10 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass13 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass1a 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass1d 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass20 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass23 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass26 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass29 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass2d 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass31 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass34 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass37 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass3a`1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClass8 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClassa`1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+<>c__DisplayClassd 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.MappingExpression`2+SourceMappingExpression 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Configuration.CreateTypeMapExpression+<>c__DisplayClass2 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Configuration.CreateTypeMapExpression+<>c__DisplayClass5 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Configuration.CreateTypeMapExpression+<>c__DisplayClass8 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Configuration.CreateTypeMapExpression+<>c__DisplayClassb 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.Configuration.CreateTypeMapExpression+<>c__DisplayClasse 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.PropertyMap+<GetSourceValueResolvers>d__0 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Extensions+<>c__DisplayClass10 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Extensions+<>c__DisplayClass1`2 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Extensions+<>c__DisplayClass8 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Extensions+<>c__DisplayClassa 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Extensions+<>c__DisplayClassd 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Extensions+ConstantExpressionReplacementVisitor 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Extensions+NewFinderVisitor 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.IExpressionBinder 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.IExpressionResultConverter 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Impl.MemberResolverExpressionResultConverter+ParameterConversionVisitor 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.Impl.NullSubstitutionExpressionResultConverter+NullSubstitutionConversionVisitor 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.IProjectionExpression 生成填充码: 类型是一个接口。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.ProjectionExpression`1+<>c__DisplayClass2`1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.QueryableExtensions.ProjectionExpression`1+MemberVisitor 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ResolutionExpression`1+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ResolutionExpression`1+<>c__DisplayClass4 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ResolutionExpression`2+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ResolutionExpression`2+<>c__DisplayClass4 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.ThreadSafeList`1+<>c__DisplayClass2 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeInfo+<>c__DisplayClass22 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeInfo+<>c__DisplayClass8 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeInfo+<>c__DisplayClassa 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMap+<>c__DisplayClass1f 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMap+<>c__DisplayClass27 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMap+<>c__DisplayClass2b 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMap+<>c__DisplayClass3 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMap+<>c__DisplayClass31 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMapFactory+<>c__DisplayClass16 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMapFactory+<>c__DisplayClass1c 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMapFactory+<>c__DisplayClass1e 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMapFactory+<>c__DisplayClass7 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMapFactory+<>c__DisplayClasse 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMapFactory+<PossibleNames>d__20 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 AutoMapper.TypeMapFactory+NameSnippet 生成填充码: 类型对 exported or assembly(AutoMapper.3.3.1.0.Fakes) 不可见。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 <>f__AnonymousType0`2 生成填充码: 类型不受支持，因为存在内部限制。
+C:\Users\Administrator\Documents\GitHub\abot\Abot\Fakes\AutoMapper.fakes : warning : 无法为 <>f__AnonymousType1`2 生成填充码: 类型不受支持，因为存在内部限制。
