@@ -7,6 +7,9 @@ using System.Net;
 using System.Reflection;
 using System.Threading.Tasks;
 using log4net.Core;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
 
 namespace Abot.Core
 {
@@ -79,8 +82,8 @@ namespace Abot.Core
             if (_config.HttpServicePointConnectionLimit > 0)
                 ServicePointManager.DefaultConnectionLimit = _config.HttpServicePointConnectionLimit;
 
-            //_extractor = contentExtractor ?? new WebContentExtractor();
-            _extractor = contentExtractor;
+            _extractor = contentExtractor ?? new WebContentExtractor();
+            //_extractor = contentExtractor;
         }
 
         /// <summary>
@@ -89,6 +92,17 @@ namespace Abot.Core
         public virtual CrawledPage MakeRequest(Uri uri)
         {
             return MakeRequest(uri, (x) => new CrawlDecision { Allow = true });
+        }
+
+        public List<Cookie> GetCookies(Uri uri)
+        {
+            List<Cookie> cookies = new List<Cookie>();
+            foreach (Cookie cookie in _cookieContainer.GetCookies(uri))
+            {
+                cookies.Add(cookie);
+            }
+
+            return cookies;
         }
 
         /// <summary>
@@ -109,6 +123,8 @@ namespace Abot.Core
                 crawledPage.RequestStarted = DateTime.Now;
                 response = (HttpWebResponse)request.GetResponse();
                 ProcessResponseObject(response);
+                StreamReader sr3 = new StreamReader(response.GetResponseStream(), Encoding.UTF8);
+                string res = sr3.ReadToEnd();
             }
             catch (WebException e)
             {
@@ -230,6 +246,7 @@ namespace Abot.Core
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
             request.AllowAutoRedirect = _config.IsHttpRequestAutoRedirectsEnabled;
+
             request.UserAgent = _config.UserAgentString;
             request.Accept = "*/*";
 

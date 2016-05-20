@@ -2,6 +2,7 @@
 using Abot.Poco;
 using log4net;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
@@ -12,6 +13,8 @@ namespace Abot.Core
     public interface IWebContentExtractor : IDisposable
     {
         PageContent GetContent(WebResponse response);
+
+        PageContent GetContent(WebResponse response, List<Cookie> cookies);
     }
 
     [Serializable]
@@ -25,7 +28,8 @@ namespace Abot.Core
             {
                 String charset = GetCharsetFromHeaders(response);
 
-                if (charset == null) {
+                if (charset == null)
+                {
                     memoryStream.Seek(0, SeekOrigin.Begin);
 
                     // Do not wrap in closing statement to prevent closing of this stream.
@@ -53,6 +57,11 @@ namespace Abot.Core
             }
         }
 
+        public virtual PageContent GetContent(WebResponse response, List<Cookie> cookies)
+        {
+            return this.GetContent(response);
+        }
+
         protected virtual string GetCharsetFromHeaders(WebResponse webResponse)
         {
             string charset = null;
@@ -69,7 +78,7 @@ namespace Abot.Core
         protected virtual string GetCharsetFromBody(string body)
         {
             String charset = null;
-            
+
             if (body != null)
             {
                 //find expression from : http://stackoverflow.com/questions/3458217/how-to-use-regular-expression-to-match-the-charset-string-in-html
@@ -82,7 +91,7 @@ namespace Abot.Core
 
             return charset;
         }
-        
+
         protected virtual Encoding GetEncoding(string charset)
         {
             Encoding e = Encoding.UTF8;
@@ -92,7 +101,7 @@ namespace Abot.Core
                 {
                     e = Encoding.GetEncoding(charset);
                 }
-                catch{}
+                catch { }
             }
 
             return e;

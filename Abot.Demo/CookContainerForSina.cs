@@ -44,7 +44,7 @@ namespace Abot.Demo
             return string.Empty;
         }
 
-        public static int SinaLogin(string uid, string psw, CookieContainer cc)
+        public static int SinaLogin(string uid, string psw, ref CookieContainer cc)
         {
             string uidbase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(uid));
 
@@ -128,13 +128,26 @@ namespace Abot.Demo
             {
                 cc.Add(cookie);
             }
+
+
+            HttpWebRequest webRequest4 = (HttpWebRequest)WebRequest.Create(new Uri("http://weibo.com/p/1006051192515960/follow"));
+            webRequest4.CookieContainer = cc;
+            webRequest4.UserAgent = "spider";
+            HttpWebResponse response4= (HttpWebResponse)webRequest4.GetResponse();
+            StreamReader sr4 = new StreamReader(response4.GetResponseStream(), Encoding.UTF8);
+            res = sr4.ReadToEnd();
+
+            Console.WriteLine(res);
+
             return 0;
+
+
         }
 
         public static CookieContainer GetCookieContainer()
         {
             CookieContainer cookies = new CookieContainer();
-            var loginStatus = SinaLogin("13917506403", "abcde19900414F", cookies);
+            var loginStatus = SinaLogin("13917506403", "abcde19900414F", ref cookies);
             if (loginStatus == 0)
             {
                 return cookies;

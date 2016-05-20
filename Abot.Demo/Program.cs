@@ -9,6 +9,7 @@ using System;
 using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace Abot.Demo
 {
@@ -31,6 +32,8 @@ namespace Abot.Demo
         /// 新浪微博正则
         /// </summary>
         public static Regex WeiboAccountRegex = new Regex("http://weibo.com/[^p]/\\d+|http://weibo.com/u/\\d+", RegexOptions.Compiled);
+
+        public static Regex PageToCrawl = new Regex("http://e.weibo.com/[a-zA-Z]+|http://weibo.com/+|http://weibo.com/u/\\d+", RegexOptions.Compiled);
 
         static void Main(string[] args)
         {
@@ -63,6 +66,24 @@ namespace Abot.Demo
             config.UserAgentString = "spider";
             config.MaxConcurrentThreads = 1; // Web Extractor is not currently thread-safe.
             config.IsSendingCookiesEnabled = true;
+            config.IsHttpRequestAutoRedirectsEnabled = false;
+            config.IsAlwaysLogin = true;
+            config.LoginUser = "13917506403";
+            config.LoginPassword = "abcde19900414F";
+
+           
+
+            CookieContainer container = CookContainerForSina.GetCookieContainer();
+
+            /////////////////////////////////////////////set cookie to a txt//////////////////////////////////////////////////////////////////////
+           
+            foreach (System.Net.Cookie cookie in container.GetCookies(new Uri("http://weibo.com")))
+            {
+                string cookieInfo = string.Format("document.cookie = '{0}={1}; path={2}; domain={3}; expires={4}';\n",cookie.Name,cookie.Value,cookie.Path,cookie.Domain,cookie.Expires);
+                System.IO.File.AppendAllText("cookies.txt", cookieInfo);
+            }
+            
+            ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             // Create the PhantomJS instance. This will spawn a new PhantomJS process using phantomjs.exe.
             // Make sure to dispose this instance or you will have a zombie process!
@@ -70,16 +91,20 @@ namespace Abot.Demo
 
             // Create the content extractor that uses PhantomJS.
             IWebContentExtractor extractor = new JavaScriptContentExtractor(driver);
+            
 
-            CookieContainer container = CookContainerForSina.GetCookieContainer();
             // Create a PageRequester that will use the extractor.
-            IPageRequester requester = new PageRequester(config, container,extractor);
+            IPageRequester requester = new PageRequester(config, container, extractor);
 
             using (crawler = new PoliteWebCrawler(config, null, null, null, requester, null, null, null, null))
             {
                 //crawler.ShouldCrawlPage((pageToCrawl, crawlContext) =>
                 //{
                 //    CrawlDecision decision = new CrawlDecision { Allow = true };
+                //    if (!PageToCrawl.IsMatch(pageToCrawl.Uri.AbsoluteUri))
+                //    {
+                //        return new CrawlDecision { Allow = false, Reason = "Dont want to crawl  pages with less pages" };
+                //    }
                 //    if (pageToCrawl.Uri.Authority == "google.com")
                 //        return new CrawlDecision { Allow = false, Reason = "Dont want to crawl google pages" };
 
@@ -134,9 +159,14 @@ namespace Abot.Demo
             // Create the service while hiding the prompt window.
             PhantomJSDriverService service = PhantomJSDriverService.CreateDefaultService();
             service.HideCommandPromptWindow = true;
-            IWebDriver driver = new PhantomJSDriver(service, options);
+            service.CookiesFile = "cookiePersistent.txt";
+           
+            IWebDriver phantomDriver = new PhantomJSDriver(service, options);
+            //string txt = System.IO.File.ReadAllText("cookies.txt");
+            //phantomDriver.ExecutePhantomJS(txt);
+       
 
-            return driver;
+            return phantomDriver;
         }
 
         private static IWebCrawler GetDefaultWebCrawler()
